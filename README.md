@@ -2,11 +2,11 @@
 
 ## No projeto foi utilizado o json-server e o browser-sync para simular um servidor e consumir dados.
 
-Para iniciar o projeto é necesário abrir o terminal e depois, executar o seguinte comando:   
+- Para iniciar o projeto é necesário abrir o terminal e depois, executar o seguinte comando:   
 
 ### npx json-server --watch db.json
 
-Após isso é essencial executar o browser-sync, para isso inicie um novo terminal e utilize o seguinte comando na raiz do projeto:
+- Após isso é essencial executar o browser-sync, para isso inicie um novo terminal e utilize o seguinte comando na raiz do projeto:
 
 ### browser-sync start --server --file . --host --port 5000 --startPath /telas/lista_cliente.html
 
